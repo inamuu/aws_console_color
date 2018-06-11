@@ -1,0 +1,14 @@
+{
+"manifest_version": 2,
+"name": "switch aws console color for lancers",
+"version": "0.1",
+
+"content_scripts": [
+  {
+    "matches": ["https://*.console.aws.amazon.com/*"],
+    "js": ["jquery.min.js", "user.js"]
+  }
+]
+
+
+}
